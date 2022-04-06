@@ -1,0 +1,303 @@
+
+/* Header */
+.header{
+  background-color: #eeeeee;
+  position: block;
+  padding: 0;
+  margin: 0;
+}
+.header .container .row {
+  align-items: center;
+}
+.header .container p, h6{
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 0;
+}
+.h1, h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.header .container h6{
+  font-family: 'Rubik Wet Paint', cursive;
+  color: orange;
+}
+span.location{
+  color: #555555;
+  font-weight: bold;
+}
+.header div a i{
+  padding: 5px;
+  color: #555555;
+}
+.header div a i:hover{
+  color: orange;
+}
+
+
+
+/* Header 2 */
+.header2{
+  text-decoration: none;
+  padding: 8px;
+}
+
+
+.header2 .container .row {
+  align-items: center;
+  align-content: center;
+}
+.header2 a{
+  text-decoration: none;
+  color: black;
+
+}
+
+h1 i{
+  color: orange;
+}
+span.logo{
+  font-family: 'Rubik Wet Paint', cursive;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+span.bengal{
+  color: Orange;
+  font-size: 30px;
+  font-weight:500;
+}
+span.heading{
+  color: #555555;
+  font-size: 13px;
+  font-weight: normal;
+}
+.login{
+  font-size: 15px;
+  font-weight: bold;
+}
+.login:hover{
+  background-color: #eeeeee;
+  color: Orange;
+  font-weight: bold;
+  border: 0;
+}
+.header2 div .col-lg-3{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Navbar */
+
+.custom-nav{
+  background: #1C1C1C;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+}
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-nav a{
+  font-weight: bold;
+  color: white;
+}
+
+.custom-nav a:hover{
+  background-color:	#333333;
+  border-radius: 5px;
+  font-size: 18px;;
+}
+.custom-nav ul li a{
+  font-weight: bold;
+  color: white;
+}
+.search-design{
+  background-color: orange;
+  color: white;
+}
+
+/* DropDown */
+
+.dropdown .dropdown-menu{
+  background-color:	#333333;
+}
+.dropdown-menu .dropdown-item:hover{
+  color: orange;
+}
+
+/* Carousel */
+#onclick li:hover{
+  background: orange;
+}
+
+ /* About, Details info and demo section */
+ .about-content{
+   margin-top:5em  ;
+ }
+ .about{
+   font-size: 1.3em;
+ }
+ .about, .descrip{
+   font-family: 'Playfair Display';
+ }
+ .lorem{
+   text-align: justify;
+   text-justify: inter-word;
+ }
+ table td.text{
+   font-size: 1.4em;
+   font-weight: bold;
+   font-variant: small-caps;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 0;
+   margin-right: 0;
+ }
+ table td.text:not(:last-child){
+   padding-right: 5px;
+ }
+ table td i{
+   font-size: 1.9em;
+   color: orange;
+   padding-right:10px;
+ }
+ .demo{
+   margin-top: 1em;
+   font-family: 'Playfair Display';
+ }
+
+/* Fact Information block */
+
+.fact-info{
+  background: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+ #left-block{
+  background: #1C1C1C;
+  color: orange;
+  padding: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+ #right-block{
+  background: orange;
+  color:#1C1C1C;
+  padding: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#right-block i{
+  color: #1C1C1C;
+}
+
+.fact-info td{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Rubik Wet Paint', cursive;
+}
+
+ /* .quote{
+  background: red;
+} */
+
+/* Testimonials */
+
+
+.test-right{
+  padding: 0;
+  margin:0;
+  background: #F5F5F5;
+
+}
+.test-right.col-6:not(:last-child){
+  border-right:4px solid white;
+}
+.test-right.col-6{
+    border-bottom: 4px solid white;
+}
+
+
+
+/* Footer */
+.footer-main{
+  font-family: arial;
+  margin-top: 5em;
+  background: #1C1C1C;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+  color: white;
+  padding-bottom: 50px;
+}
+.footer-main .title{
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding-left: 5px;
+  border-left: 3px solid orange;
+}
+
+.footer-main ul{
+  font-family: arial;
+  list-style-type: ">";
+  text-indent: 1em;
+  padding-left: 10px;
+}
+.footer-main li a{
+  color: white;
+}
+.footer-main p i{
+  padding-right: 5px;
+}
+/* For Hover in footer */
+a.right
+{
+    position: relative;
+}
+
+a.right:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  right: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+a.right:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.footer-main li a:hover{
+  color: orange;
+  padding-left: 10px;
+  transition-duration: 0.3s;
+  padding-right: 10px;
+  letter-spacing: 1px;
+}
+/* Hover End */
+
+
+.footer-main div a i{
+  padding: 15px;
+  color: #555555;
+}
+.footer-main div a i:hover{
+  color: orange;
+}
