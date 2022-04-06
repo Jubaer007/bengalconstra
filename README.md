@@ -1,4 +1,4 @@
 # bengalconstra.github.io
 
 # Link
-https://github.com/Jubaer007/bengalconstra.github.io.git
+https://jubaer007.github.io/bengalconstra.github.io/
