@@ -122,14 +122,133 @@
     color: white;
   }
 
-  
+/* Dropdown customization */
+/* .dropdown:hover .dropdown-menu{
+  display: block;
+} */
+.dropdown .dropdown-menu{
+  background-color:	#333333;
+}
+.dropdown-menu .dropdown-item:hover{
+  color: orange;
+}
 
+/* Main Content */
 
+.news-content{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 220vh;
+} 
 
+/* Left Content */
 
+.news-content .left-content{
+  width: 65%;
+  float: left;
+}
+.news-content .left-content img{
+  height:400px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px ;
+}
 
+.news-content .left-content .btn.btn-primary{
+  background: orangered;
+  border: none;
+  border-bottom: 3px solid black ;
+}
+hr{
+  border: 1px solid #e9e9e9;
+}
 
+/* Posts */
 
+.post-1, .post-2{
+  border: 1px solid #e9e9e9;
+  margin-bottom: 30px;
+  border-radius: 10px;;
+}
+.author-info ul{
+  margin: 30px;
+  margin-left: 0px;
+  list-style: none;
+  display: block;
+}
+.author-info ul li{
+  color: gray;
+  margin: 5px;
+  display: inline;
+}
+
+/* Right Content */
+.news-content .right-content{
+  width: 30%;
+  padding-bottom: 30px;
+  float: right;
+  border-radius: 10px;
+}
+.news-content .right-content .navbar{
+  padding-top: 30px;
+  padding-left: 10px;
+}
+/* Search Block */
+.right-content .search.container{
+  background-color: #e9e9e9;
+  padding-bottom: 50px;
+}
+
+/* Recent Posts Block */
+.right-content .recent-posts{
+  margin-top: 100px;
+  background: #e9e9e9;
+
+  padding-bottom: 50px;
+}
+.posts-list{
+  list-style: none;
+  display: block;
+}
+.posts-list li{
+  display: block;
+  padding-bottom: 5px;
+  border-bottom:1px solid rgb(182, 182, 182);
+}
+.posts-list li .f-image, .news-info{
+  margin-top: 10px ;
+  text-decoration: none;
+  display: inline-block;
+}
+.news-info a{
+  color: black;
+}
+time{
+  color: #555555;
+}
+
+/* Recent Comments */
+.right-content .recent-comments{
+  margin-top: 100px;
+  background: #e9e9e9;
+  color: #555555;
+  padding-bottom: 50px;
+}
+.comments-list{
+  list-style: none;
+  display: block;
+}
+.comments-list li{
+  display: block;
+  padding-bottom: 5px;
+  border-bottom:1px solid rgb(182, 182, 182);
+}
+
+.comments-list .comments-info a{
+  text-decoration: none;
+  color: black;
+}
 
 
   /* Footer */

@@ -112,7 +112,7 @@ span.heading{
 .custom-nav a:hover{
   background-color:	#333333;
   border-radius: 5px;
-  font-size: 18px;;
+  font-size: 18px;
 }
 .custom-nav ul li a{
   font-weight: bold;
@@ -124,6 +124,9 @@ span.heading{
 }
 
 /* DropDown */
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
 
 .dropdown .dropdown-menu{
   background-color:	#333333;
