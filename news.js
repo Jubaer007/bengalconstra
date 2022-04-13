@@ -5,22 +5,20 @@ dropdown[0].addEventListener('mouseover', function(){
 });
 
 dropdown[0].addEventListener('mouseout', function(){
-    setTimeout(function(){
+    // setTimeout(function(){
         dropItem[0].style.display="none";
-    },500);
+    // },500);
 });
 
 
 var dropItem2 = dropdown[1].querySelectorAll(".dropdown-menu");
 dropdown[1].addEventListener('mouseover', function(){
     dropItem2[0].style.display="block";
-    dropItem[0].style.transitionDuration = '3s';
 });
 
 dropdown[1].addEventListener('mouseout', function(){
-    setTimeout(function(){
+    // setTimeout(function(){
         dropItem2[0].style.display="none";
-        dropItem[0].style.transitionDuration = '3s';
-    },500);
+    // },500);
     
 });

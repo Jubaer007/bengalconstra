@@ -17,19 +17,19 @@
 
 // Taker User Input from prompt and display it in the Testimonial Section.
 
-var comment = window.prompt("Enter Your Comment: "); 
-var uname = window.prompt("Enter your name: ");
-var designation = window.prompt("Enter your designation: ");
+// var comment = window.prompt("Enter Your Comment: "); 
+// var uname = window.prompt("Enter your name: ");
+// var designation = window.prompt("Enter your designation: ");
 
-function setinput(){
-    var tcomment = document.querySelector("#t-comment");
-    var tname = document.querySelector("#commentator-name");
-    var tdesignation = document.querySelector("#commentator-designation");
+// function setinput(){
+//     var tcomment = document.querySelector("#t-comment");
+//     var tname = document.querySelector("#commentator-name");
+//     var tdesignation = document.querySelector("#commentator-designation");
 
-    tcomment.textContent = comment;
-    tname.textContent = uname;
-    tdesignation.textContent = designation;
-}
-setinput();
+//     tcomment.textContent = comment;
+//     tname.textContent = uname;
+//     tdesignation.textContent = designation;
+// }
+// setinput();
 
 
